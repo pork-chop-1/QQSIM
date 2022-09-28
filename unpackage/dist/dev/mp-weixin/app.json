@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/MsgPlane/index",
+    "pages/PersonInfo/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "tab1",
+        "iconfont": {
+          "text": "",
+          "selectedText": "",
+          "fontSize": "17px",
+          "color": "#000000",
+          "selectedColor": "#0000ff"
+        }
+      },
+      {
+        "pagePath": "pages/PersonInfo/index",
+        "text": "tab2",
+        "iconfont": {
+          "text": "",
+          "selectedText": "",
+          "fontSize": "17px",
+          "color": "#000000",
+          "selectedColor": "#0000ff"
+        }
+      }
+    ]
+  },
+  "usingComponents": {}
+}
